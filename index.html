@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ATMs Nearby v1.0</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+        <div class="col-sm-3">
+            <p id="text" class="label label-info">Click the button to get your position!</p>
+            <button id="btn-click" class="btn btn-primary btn-lg">Click here!</button>
+        </div>
+        <div  class="col-sm-7">
+        <p id="map-canvas"></p>
+            <p id="location"></p>
+        </div>
+        <div class="col-sm-2">&nbsp;</div>
+    </div>
+    <div id="map-canvass">
+      
+    </div>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0OLjYGSFYiifkeNIstz4kDhStx_p33K8&libraries=places"
+  type="text/javascript"></script>
+    
+    <script src="js/main.js"></script>
+</body>
+
+</html>
